@@ -11,7 +11,7 @@ $result = mysqli_query($conn, "SELECT * FROM users WHERE username = '".$username
 $row = mysqli_fetch_array($result);
 
 if($row['username'] == $username && $row['password'] == $password)
-    echo "Login successful! Welcome ".$row['username'];
+    echo "<h1><center>Login successful! Welcome ".$row['username']."</center></h1>";
 else
     echo "Username or password incorrect..";
 ?>
