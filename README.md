@@ -1,8 +1,8 @@
-# Web-Login
+# Web Login System
 
-Web-Login is a simple user login system which uses PHP form to connect to the MySQL database server on localhost.
+This web application is a simple user login system which uses PHP form to connect to the MySQL database server on localhost.
 
-The website also consist of a Text-To-Speech API - http://www.voicerss.org/ 
+The website also consist of a Text-To-Speech API by Voicerss - http://www.voicerss.org/ 
 
 The API generate a voice when the page is loaded to welcome the user and as more tasks are performed.
 
