@@ -18,6 +18,7 @@ __Demo:__ https://v-rowjee.github.io/Web-Login-System-with-text-to-speech/ [^1]
 - Start the MySQL by clicking on the Start button.
 - Create all the files needed for login.
 - Create login table in the database using phpMyAdmin in XAMPP.
+- Finally open **localhost/Web-Login-System-with-text-to-speech** on your browser.
 
 <br>
 
