@@ -2,9 +2,11 @@
 
 This web application is a simple user login system which uses PHP form to connect to the MySQL database server on localhost.
 
+Users can either login with an existing account or register for a new account by clicking <i> Register Now</i>.
+
 The website also consist of a Text-To-Speech API by Voicerss - http://www.voicerss.org/ 
 
-The API generate a voice when the page is loaded to welcome the user and as more tasks are performed.
+The API generate a voice when the page is loaded to welcome the user to the login screen, registration form as well as to inform for other actions being performed.
 
 <br>
 
