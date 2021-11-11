@@ -8,7 +8,7 @@ The API generate a voice when the page is loaded to welcome the user and as more
 
 <br>
 
-__Demo:__ https://v-rowjee.github.io/Web-Login-System-with-text-to-speech/
+__Demo:__ https://v-rowjee.github.io/Web-Login-System-with-text-to-speech/ [^1]
 
 
 ## Environment Setup
@@ -18,3 +18,7 @@ __Demo:__ https://v-rowjee.github.io/Web-Login-System-with-text-to-speech/
 - Start the MySQL by clicking on the Start button.
 - Create all the files needed for login.
 - Create login table in the database using phpMyAdmin in XAMPP.
+
+<br>
+
+[^1]: Github pages currently do not support PHP as it only supports static website.
