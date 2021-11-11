@@ -5,9 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-signin-client_id" content="38469875455-mdnevr78kbn1j3e3i7hkpm2ldsl1ofkd.apps.googleusercontent.com">
     <title>Login</title>
 
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </head>
   <body>
     <div class="form-container">
@@ -19,8 +21,11 @@
         <input type="password" placeholder="Password" name="password" id="password" required>
         <input type="submit" value="Login">
       </form>
+      <h5>or login with social media</h5>
+      <div class="g-signin2"></div>
+
     </section>
   </body>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </html>

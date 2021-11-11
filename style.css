@@ -19,7 +19,7 @@ body {
 .form-container {
   height: 500px;
   width: 400px;
-  padding: 25px 50px;
+  padding: 30px 50px;
   margin: auto;
   /* Neumorphism */
   border-radius: 30px;
@@ -35,24 +35,44 @@ h1 {
   text-align: center;
   color: #888;
   letter-spacing: 1px;
+  cursor: default;
+}
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  color: #888;
+}
+h5:before,
+h5:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #bebebe;
+  margin: auto;
+}
+h5:before {
+  margin-right: 10px;
+}
+h5:after {
+  margin-left: 10px;
 }
 
 form {
-  height: 80%;
-  margin-top: 10%;
+  height: 325px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 label {
-  margin-bottom: -15%;
+  margin-bottom: -50px;
   margin-left: 5px;
   color: #555;
 }
 
 input {
-  height: 9%;
+  height: 10%;
   padding: 10px 15px;
   border-radius: 15px;
   border: none;
@@ -64,6 +84,10 @@ input[type="submit"] {
   letter-spacing: 2px;
   background-color: rgba(200, 200, 200, 0.7);
 }
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #c0c0c0;
+}
 
 input:focus {
   outline: 1px solid #888;
@@ -74,7 +98,6 @@ input:hover {
   background-color: #ffffff;
 }
 
-.error-message {
-  margin: -10% auto;
-  color: #ed4337;
+.g-signin2 {
+  margin: 12px auto;
 }

@@ -1,3 +1,5 @@
+//text-to-speech
+
 const url = "http://api.voicerss.org/";
 const apiKey = "9b687eec4a494bc78f6d372d5748514c";
 const buildUrl = (str) => `${url}?key=${apiKey}&hl=en-gb&src=${str}&v=Lily&r=2`;
@@ -20,3 +22,9 @@ username().addEventListener("click", () => {
 password().addEventListener("click", () => {
   new Audio(buildUrl(passwordMsg)).play();
 });
+
+//google sign in
+function onSignIn(googleUser) {
+  // get user profile information
+  console.log(googleUser.getBasicProfile());
+}
