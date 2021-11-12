@@ -11,15 +11,54 @@
   </head>
   <body>
     <div class="form-container">
-      <h1>Login.</h1>
-      <form autocomplete="off" action="connect.php" method="post">
+      <h1 id="title">Login.</h1>
+      <!-- LOGIN FORM -->
+      <form autocomplete="off" id="loginForm" action="login.php" method="post">
         <label for="username">Username</label>
-        <input type="text" placeholder="Username" name="username" id="username" required>
+        <input
+          type="text"
+          placeholder="Username"
+          name="username"
+          id="username"
+          required
+        />
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" name="password" id="password" required>
-        <input type="submit" value="Login">
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          id="password"
+          required
+        />
+        <input type="submit" value="Sign in" />
       </form>
-    </section>
+      <!-- REGISTRATION FORM -->
+      <form
+        autocomplete="off"
+        id="registerForm"
+        action="register.php"
+        method="post"
+      >
+        <label for="newUsername"> New Username</label>
+        <input
+          type="text"
+          placeholder="Username"
+          name="newUsername"
+          id="newUsername"
+          required
+        />
+        <label for="newPassword">New Password</label>
+        <input
+          type="password"
+          placeholder="Password"
+          name="newPassword"
+          id="newPassword"
+          required
+        />
+        <input type="submit" value="Join now" />
+      </form>
+      <h6 id="swapForm">Dont have an account yet?<br />Register now!</h6>
+    </div>
   </body>
 
   <script src="./script.js"></script>
