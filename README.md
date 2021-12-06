@@ -12,14 +12,16 @@ The API generate a voice when the page is loaded to welcome the user to the logi
 
 __Demo:__ https://v-rowjee.github.io/Web-Login-System-with-text-to-speech/ [^1]
 
+__Demo host by w3spaces:__ https://voice-login.w3spaces.com/
+
 
 ## Environment Setup
 
 - Open the XAMPP Control Panel.
 - Start the Apache server by clicking on the Start button.
 - Start the MySQL by clicking on the Start button.
-- Create all the files needed for login.
 - Create login table in the database using phpMyAdmin in XAMPP.
+- Clone all the files to **C:/xampp/htdocs**.
 - Finally open **localhost/Web-Login-System-with-text-to-speech** on your browser.
 
 <br>
