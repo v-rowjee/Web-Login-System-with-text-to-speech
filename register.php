@@ -3,8 +3,8 @@ $conn = mysqli_connect("localhost","root","","web_login") or die("Failed to conn
 
 // if(isset($_POST['submit']))
 // {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $username = $_POST['newUsername'];
+    $password = $_POST['newPassword'];
 
     $sql = "INSERT INTO users(username, password) VALUES ('$username','$password')";
 
@@ -17,4 +17,3 @@ $conn = mysqli_connect("localhost","root","","web_login") or die("Failed to conn
 // }
 
 $conn->close();
-?>
